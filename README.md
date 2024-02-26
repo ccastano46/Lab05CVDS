@@ -52,6 +52,7 @@ Centrandose  en  lso recursos que pueden ser identificados mediante URLs y manip
 - POST
 - PUT
 - DELETE
+
 Permitiendo una comunicación uniforme y eficiente entre sistemas. 
 
 
