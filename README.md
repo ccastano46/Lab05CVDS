@@ -3,7 +3,7 @@
 * Josué Hernández
 * Saray Mendivelso
 
-## RESPUESTAS
+## RESPUESTAS PARTE ||
 ### Ciclos de vida del desarrollo de software
 #### Solución lab 5 MVC / 2024
 
@@ -42,3 +42,18 @@ Anotaciones usadas en el Spring Framework de Java:
   - `@SpringBootApplication`: Esta anotación se utiliza para marcar la clase principal de una aplicación Spring Boot. Combina tres anotaciones: `@Configuration`, `@EnableAutoConfiguration` y `@ComponentScan`. Indica que la clase es una clase de configuración, habilita la configuración automática de Spring Boot basada en el contenido del classpath y escanea los paquetes para componentes de Spring.
   - `@ResponseBody`: Indica que el valor devuelto por un método de controlador debe ser vinculado directamente al cuerpo de la respuesta HTTP, en lugar de ser vinculado a una vista. Es útil cuando se quiere devolver datos en formato JSON o XML directamente desde un controlador.
   - `@RequestMapping("/User/{id}")`: Esta anotación se utiliza para mapear solicitudes HTTP a métodos de controlador específicos y permite el uso de variables de ruta, como {id} en este caso, que serán pasadas como parámetros al método del controlador.
+
+
+#PARTE |||
+- **¿Que es RESTful?**
+RESTful (Representational State Transfer) es un estilo arquitectónico que promueve la creacion de APIs web, para el diseño de sistemas de software distribuidos, que se basa en estándares y protocolos web existentes, como HTTP.
+Centrandose  en  lso recursos que pueden ser identificados mediante URLs y manipulados a través de métodos HTTP estándar
+- GET
+- POST
+- PUT
+- DELETE
+Permitiendo una comunicación uniforme y eficiente entre sistemas. 
+
+
+
+
