@@ -44,8 +44,8 @@ Anotaciones usadas en el Spring Framework de Java:
   - `@RequestMapping("/User/{id}")`: Esta anotación se utiliza para mapear solicitudes HTTP a métodos de controlador específicos y permite el uso de variables de ruta, como {id} en este caso, que serán pasadas como parámetros al método del controlador.
 
 
-#PARTE |||
-- **¿Que es RESTful?**
+## PARTE |||
+**¿Que es RESTful?**
 RESTful (Representational State Transfer) es un estilo arquitectónico que promueve la creacion de APIs web, para el diseño de sistemas de software distribuidos, que se basa en estándares y protocolos web existentes, como HTTP.
 Centrandose  en  lso recursos que pueden ser identificados mediante URLs y manipulados a través de métodos HTTP estándar
 - GET
