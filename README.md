@@ -6,7 +6,7 @@
 ## RESPUESTAS
 ### Ciclos de vida del desarrollo de software
 #### Solución lab 5 MVC
-#####2024
+####2024
 
 - **¿Por qué MVC obtiene ese nombre?** (puede apoyarse de [este enlace](https://www.javatpoint.com/spring-mvc-tutorial))
 
