@@ -41,5 +41,6 @@ bin/
 .classpath
 .project
 .settings/
+HELP.md
 
 
