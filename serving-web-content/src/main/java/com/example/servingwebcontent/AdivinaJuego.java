@@ -1,4 +1,5 @@
 package com.example.servingwebcontent;
+
 public class AdivinaJuego {
     private int numeroMagico;
     private int premio;
@@ -29,4 +30,5 @@ public class AdivinaJuego {
     private int generarNumeroMagico() {
         return (int) (Math.random() * 10) + 1;
     }
+    
 }

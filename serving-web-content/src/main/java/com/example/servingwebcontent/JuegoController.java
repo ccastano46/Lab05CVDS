@@ -17,6 +17,7 @@ public class JuegoController {
     @PostMapping("/")
     public String procesarAdivinanza(@RequestParam("numeroUsuario") int numeroUsuario, Model model) {
         boolean acertado = juego.adivinar(numeroUsuario);
+        model.addAttribute("premio", juego.getPremio()); // Actualizar el premio en el modelo
         if (acertado) {
             model.addAttribute("mensaje", "¡Has acertado! Ganaste $" + juego.getPremio());
         } else {
