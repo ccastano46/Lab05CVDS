@@ -46,6 +46,7 @@ Anotaciones usadas en el Spring Framework de Java:
 
 ## PARTE |||
 **¿Que es RESTful?**
+
 RESTful (Representational State Transfer) es un estilo arquitectónico que promueve la creacion de APIs web, para el diseño de sistemas de software distribuidos, que se basa en estándares y protocolos web existentes, como HTTP.
 Centrandose  en  lso recursos que pueden ser identificados mediante URLs y manipulados a través de métodos HTTP estándar
 - GET
@@ -58,10 +59,12 @@ Permitiendo una comunicación uniforme y eficiente entre sistemas.
  
 ## PARTE IV
 - **¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?**
+  
 Si accedemos al sitio de juegos desde dos navegadores diferentes, cada uno establecerá una sesión individual con el servidor. 
 De este modo, cada sesión gestionará su propio juego, con su número secreto por adivinar y su saldo exclusivo. Es asi como los juegos en los dos navegadores se desarrollarán de manera completamente separada entre sí.
 
 - **Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?**
+  
 Si deseamos que cada jugador vea los saldos de forma independiente, al usar la sesión de Flask para guardar los números a adivinar y los saldos de cada usuario. La sesión de Flask se gestiona de manera individual para cada usuario, lo que significa que cada jugador tendrá su propio saldo y estado de juego, sin influencia de las acciones de otros jugadores en el mismo sitio web.
 
 
