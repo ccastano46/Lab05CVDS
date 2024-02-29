@@ -28,4 +28,8 @@ public class UserController {
   
   
  }
+ @RequestMapping("/guess")
+ private String guess(){
+    return "guess";
+ }
 }

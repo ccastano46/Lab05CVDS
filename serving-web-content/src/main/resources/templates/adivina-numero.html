@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivina el Número</title>
+</head>
+<body>
+    <h1>Juego de Adivina el Número</h1>
+    <p>Premio actual: $<span th:text="${premio}"></span></p>
+
+    <form action="/" method="post">
+        <label for="numeroUsuario">Ingresa un número (1-10):</label>
+        <input type="number" id="numeroUsuario" name="numeroUsuario" min="1" max="10">
+        <input type="submit" value="Adivinar">
+    </form>
+    <p>${{ mensaje }}</p>
+    <form action="/reset" method="post">
+        <input type="submit" value="Reiniciar">
+    </form>
+</body>
+</html>
